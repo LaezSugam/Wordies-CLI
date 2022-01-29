@@ -8,10 +8,13 @@ namespace Wordies
     {
         static List<string> Words = new List<string>();
 
+        private static int minimumLength = 5;
+        private static int maximumLength = 5;
+
         static void Main(string[] args)
         {
             var useDoubleLetters = true;
-            var path = Directory.GetCurrentDirectory() + "\\wordLists\\5letterwords.txt";
+            var path = Directory.GetCurrentDirectory() + "\\wordLists\\primaryWordList.txt";
 
             foreach(string line in File.ReadLines(path))
             {
@@ -42,6 +45,11 @@ namespace Wordies
                     {
                         continue;
                     }
+                }
+
+                if(line.Length < minimumLength || line.Length > maximumLength)
+                {
+                    continue;
                 }
 
                 Words.Add(line.ToUpper());
