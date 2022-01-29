@@ -36,6 +36,18 @@ namespace Wordies
                     charGuess.IsCorrect = true;
                     charGuess.IsInWord = true;
                 }
+
+                _charGuesses[i] = charGuess;
+            }
+
+            for(int i = 0; i < Answer.Length; i++)
+            {
+                var charGuess = _charGuesses[i];
+
+                if(charGuess.GuessedChar == Answer[i])
+                {
+                    continue;
+                }
                 else if(Answer.Contains(charGuess.GuessedChar))
                 {
                     var charactersInWord = Answer.Where(c => c == charGuess.GuessedChar);
