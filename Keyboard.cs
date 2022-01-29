@@ -5,14 +5,10 @@ namespace Wordies
 {
     class Keyboard
     {
-        private Guess _playerGuess;
-
         private List<List<CharGuess>> _keyboardLines = new List<List<CharGuess>>();
 
-        public Keyboard (Guess playerGuess)
+        public Keyboard ()
         {
-            _playerGuess = playerGuess;
-
             List<string> strings = new List<string>();
             strings.Add("QWERTYUIOP");
             strings.Add(" ASDFGHJKL");
@@ -23,7 +19,7 @@ namespace Wordies
                 List<CharGuess> keyboardLine = new List<CharGuess>();
                 for(var i = 0; i < stringy.Length; i++)
                 {
-                        keyboardLine.Add(new CharGuess(stringy[i], ' ', ""));
+                        keyboardLine.Add(new CharGuess(stringy[i]));
                 }
 
                 _keyboardLines.Add(keyboardLine);
@@ -38,7 +34,7 @@ namespace Wordies
             {
                 for(int i = 0; i < keyboardLine.Count; i++)
                 {
-                    var guessedChar = guess.GetCharGuess(keyboardLine[i].GuessedChar); 
+                    var guessedChar = guess.GetBestCharGuess(keyboardLine[i].GuessedChar); 
 
                     if(guessedChar != null && guessedChar.IsBetterGuess(keyboardLine[i]))
                     {

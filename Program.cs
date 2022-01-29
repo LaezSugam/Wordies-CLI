@@ -57,9 +57,10 @@ namespace Wordies
 
                 var rand = new Random();
                 var wordToGuess = Words[rand.Next(Words.Count)].ToUpper();
+                // wordToGuess = "BRASS";
                 var guesses = 6;
                 var guessedWords = new List<Guess>();
-                var keyboard = new Keyboard(new Guess("", wordToGuess));
+                var keyboard = new Keyboard();
                 
 
                 Console.WriteLine("W-O-R-D-I-E-S");

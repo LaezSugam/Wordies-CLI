@@ -18,7 +18,37 @@ namespace Wordies
 
             for(var i = 0; i < PlayerGuess.Length; i++)
             {
-                _charGuesses.Add(new CharGuess(guess[i], answer[i], answer));
+                _charGuesses.Add(new CharGuess(guess[i]));
+            }
+
+            VerifyGuess();
+        }
+
+        private void VerifyGuess()
+        {
+            for(int i = 0; i < Answer.Length; i++)
+            {
+                var charGuess = _charGuesses[i];
+                charGuess.BeenGuessed = true;
+
+                if(charGuess.GuessedChar == Answer[i])
+                {
+                    charGuess.IsCorrect = true;
+                    charGuess.IsInWord = true;
+                }
+                else if(Answer.Contains(charGuess.GuessedChar))
+                {
+                    var charactersInWord = Answer.Where(c => c == charGuess.GuessedChar);
+                    var guessedChars = _charGuesses.Where(c => c.GuessedChar == charGuess.GuessedChar);
+
+                    if(charactersInWord.Count() == 1 && !guessedChars.Any(c => c.IsCorrect) ||
+                    charactersInWord.Count() > 1 && !guessedChars.All(c => c.IsCorrect))
+                    {
+                        charGuess.IsInWord = true;
+                    }
+                }
+
+                _charGuesses[i] = charGuess;
             }
         }
 
@@ -27,9 +57,21 @@ namespace Wordies
             return _charGuesses.Where(c => c.GuessedChar == character).Any(c => c.IsCorrect);
         }
 
-        public CharGuess GetCharGuess(char character)
+        public CharGuess GetBestCharGuess(char character)
         {
-            return _charGuesses.FirstOrDefault(c => c.GuessedChar == character);
+            CharGuess guess = _charGuesses.FirstOrDefault(c => c.GuessedChar == character && c.IsCorrect);
+            
+            if(guess == null)
+            {
+                guess = _charGuesses.FirstOrDefault(c => c.GuessedChar == character && c.IsInWord);
+            }
+
+            if(guess == null)
+            {
+                guess = _charGuesses.FirstOrDefault(c => c.GuessedChar == character);
+            }
+
+            return guess;
         }
 
         public void printGuess()

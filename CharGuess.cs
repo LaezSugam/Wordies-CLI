@@ -6,53 +6,21 @@ namespace Wordies
     public class CharGuess
     {
         private char _playerGuess;
-        private string _answer;
-        private int _answerChar;
 
-        private bool? _isInWord;
-
-        public bool BeenGuessed
-        {
-            get{return _answer != "";} 
-        }
+        public bool BeenGuessed;
 
         public char GuessedChar
         {
             get{ return _playerGuess;}
         }
 
-        public bool IsCorrect{
-            get
-            {
-                return _playerGuess == ' ' ? false : _playerGuess == _answerChar;
-            }
-        }
+        public bool IsCorrect;
 
-        public bool IsInWord
-        {
-            get
-            {
-                if(_isInWord != null)
-                {
-                    return (bool) _isInWord;
-                }
-                else
-                {
-                    _isInWord = _playerGuess == ' ' ? false : _answer.Contains(_playerGuess);
-                    return (bool) _isInWord;
-                }
-            }
-            set
-            {
-                _isInWord = value;
-            }
-        }
+        public bool IsInWord;
 
-        public CharGuess(char guess, char answerChar, string answer)
+        public CharGuess(char guess)
         {
             _playerGuess = guess;
-            _answer = answer;
-            _answerChar = answerChar;
         }
 
         public bool IsBetterGuess(CharGuess guess)
