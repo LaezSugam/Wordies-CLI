@@ -13,6 +13,8 @@ namespace Wordies
 
         private bool _isHardcoreMode = false;
 
+        private string _reportedWordsPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\Reported Words.txt";
+
         public Wordies()
         {
 
@@ -133,7 +135,7 @@ namespace Wordies
 
                 Console.WriteLine("W-O-R-D-I-E-S");
 
-                Console.WriteLine("Debugging. Word is: " + wordToGuess);
+                // Console.WriteLine("Debugging. Word is: " + wordToGuess);
 
                 var answerIsCorrect = false;
                 // var guessClue = "_ _ _ _ _";
@@ -212,6 +214,12 @@ namespace Wordies
                     PrintGuesses(guessedWords);
                 }
 
+                Console.WriteLine("Report word? Y/N");
+                if(Console.ReadLine().ToUpper() == "Y")
+                {
+                    ReportWord(wordToGuess);
+                }
+
                 Console.WriteLine("Play Again? Y/N");
                 if(Console.ReadLine().ToUpper() == "Y")
                 {
@@ -221,7 +229,7 @@ namespace Wordies
             }
         }
 
-         private void PrintGuesses(List<Guess> guesses)
+        private void PrintGuesses(List<Guess> guesses)
         {
             foreach(var guess in guesses)
             {
@@ -235,6 +243,18 @@ namespace Wordies
             {
                 Console.WriteLine("");
             }
+        }
+
+        private void ReportWord(string reportedWord)
+        {
+            Console.WriteLine("Reporting to path: " + _reportedWordsPath);
+
+            if(!File.Exists(_reportedWordsPath))
+            {
+                File.Create(_reportedWordsPath);
+            }
+
+            File.AppendAllText(_reportedWordsPath, reportedWord + Environment.NewLine);
         }
     }
 }
