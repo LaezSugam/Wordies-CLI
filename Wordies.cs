@@ -23,6 +23,57 @@ namespace Wordies
             var useDoubleLetters = true;
             var path = Directory.GetCurrentDirectory() + "\\wordLists\\primaryWordList.txt";
 
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+
+            var keepPlaying = true;
+
+            Console.WriteLine("With hardcore mode enabled, if you guess a letter that is in the word or correct");
+            Console.WriteLine("you must use that letter in all subsequent guesses.");
+            Console.WriteLine("Enable hardcore mode? (Y/N):");
+
+            if(Console.ReadLine().ToUpper() == "Y")
+            {
+                _isHardcoreMode = true;
+            }
+
+            Console.Clear();
+
+            if(_isHardcoreMode)
+            {
+                Console.WriteLine("Hardcore mode enabled.");
+                System.Threading.Thread.Sleep(1000);
+                Console.Clear();
+            }
+
+            Console.WriteLine("Enter minimum word length.");
+            Console.WriteLine("Press ENTER without a length for default length (default is 5)");
+            var readLineValue = Console.ReadLine();
+            int readLength;
+            
+            if(readLineValue != "" && Int32.TryParse(readLineValue, out readLength))
+            {
+                _minimumLength = readLength;
+            }
+
+            Console.Clear();
+
+            Console.WriteLine("Enter maximum word length.");
+            Console.WriteLine("Press ENTER without a length for default length (default is 5)");
+            readLineValue = Console.ReadLine();
+            
+            if(readLineValue != "" && Int32.TryParse(readLineValue, out readLength))
+            {
+                _maximumLength = readLength;
+            }
+
+            if(_maximumLength < _minimumLength)
+            {
+                _maximumLength = _minimumLength;
+            }
+
+            Console.Clear();
+
+
             foreach(string line in File.ReadLines(path))
             {
                 if(!useDoubleLetters)
@@ -62,9 +113,6 @@ namespace Wordies
                 _words.Add(line.ToUpper());
             }
 
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-
-            var keepPlaying = true;
 
             while(keepPlaying)
             {
@@ -76,25 +124,12 @@ namespace Wordies
                 var guesses = 6;
                 var guessedWords = new List<Guess>();
                 var keyboard = new Keyboard();
+                string guessSquares = "";
 
-                Console.WriteLine("With hardcore mode enabled, if you guess a letter that is in the word or correct");
-                Console.WriteLine("you must use that letter in all subsequent guesses.");
-                Console.WriteLine("Enable hardcore mode? (Y/N):");
-
-                if(Console.ReadLine().ToUpper() == "Y")
+                for(var i = 0; i < wordToGuess.Length; i++)
                 {
-                    _isHardcoreMode = true;
+                    guessSquares += "\u25A1 ";
                 }
-
-                Console.Clear();
-
-                if(_isHardcoreMode)
-                {
-                    Console.WriteLine("Hardcore mode enabled.");
-                    System.Threading.Thread.Sleep(1000);
-                    Console.Clear();
-                }
-                
 
                 Console.WriteLine("W-O-R-D-I-E-S");
 
@@ -106,7 +141,7 @@ namespace Wordies
                 // keyboard.Print();
 
                 Console.WriteLine("Guess your word:");
-                Console.WriteLine("\u25A1 \u25A1 \u25A1 \u25A1 \u25A1");
+                Console.WriteLine(guessSquares);
 
                 Guess previousGuess = null;
 
