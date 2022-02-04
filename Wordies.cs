@@ -13,7 +13,7 @@ namespace Wordies
 
         private bool _isHardcoreMode = false;
 
-        private string _reportedWordsPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\Reported Words.txt";
+        private string _reportedWordsPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\Wordies Reported Words.txt";
 
         public Wordies()
         {
