@@ -9,6 +9,11 @@ namespace Wordies
         public string PlayerGuess;
         public string Answer;
 
+        public List<CharGuess> CharGuesses
+        {
+            get{ return _charGuesses;}
+        }
+
         private List<CharGuess> _charGuesses = new List<CharGuess>();
 
         public Guess (string guess, string answer)
@@ -22,6 +27,24 @@ namespace Wordies
             }
 
             VerifyGuess();
+        }
+
+        public bool UsedRequiredLetters(Guess previousGuess)
+        {
+            if(previousGuess == null)
+            {
+                return true;
+            }
+
+            foreach(var characterGuess in previousGuess.CharGuesses)
+            {
+                if((characterGuess.IsInWord || characterGuess.IsCorrect) && !PlayerGuess.Contains(characterGuess.GuessedChar))
+                {
+                    return false;
+                }
+            }
+
+            return true;
         }
 
         private void VerifyGuess()
