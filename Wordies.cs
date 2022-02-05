@@ -115,8 +115,7 @@ namespace Wordies
                     {
                         verifyGuess = false;
                         Console.WriteLine("Your answer must contain " + wordToGuess.Length + " letters.");
-                        keyboard.Print();
-                        PrintGuesses(guessedWords);
+                        PrintGameScreen(keyboard, guessedWords);
                         continue;
                     }
 
@@ -139,7 +138,6 @@ namespace Wordies
                             answerIsCorrect = true;
                             guessedWords.Add(guessedWord);
                             keyboard.Update(guessedWord);
-                            // PrintGuesses(guessedWords);
                         }
                         else if(!_words.Contains(answer))
                         {
@@ -151,7 +149,6 @@ namespace Wordies
                         }
                         else
                         {
-                            // guessClue = "";
                             guesses--;
                             guessedWords.Add(guessedWord);
                             previousGuess = guessedWord;
@@ -173,13 +170,7 @@ namespace Wordies
                         }
                     }
 
-                    PrintReturns(3);
-
-                    keyboard.Print();
-
-                    PrintReturns(2);
-                    
-                    PrintGuesses(guessedWords);
+                    PrintGameScreen(keyboard, guessedWords);
                 }
 
                 Console.WriteLine("Report word? Y/N");
@@ -269,6 +260,17 @@ namespace Wordies
             }
 
             return words;
+        }
+
+        private void PrintGameScreen(Keyboard keyboard, List<Guess> guessedWords)
+        {
+            PrintReturns(3);
+
+            keyboard.Print();
+
+            PrintReturns(2);
+            
+            PrintGuesses(guessedWords);
         }
     }
 }
