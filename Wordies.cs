@@ -75,46 +75,7 @@ namespace Wordies
 
             Console.Clear();
 
-
-            foreach(string line in File.ReadLines(path))
-            {
-                if(!useDoubleLetters)
-                {
-                    var duplicate = false;
-
-                    foreach(char letter in line)
-                    {
-                        var count = 0;
-
-                        foreach(char character in line)
-                        {
-                            if(character == letter)
-                            {
-                                count++;
-                            }
-                        }
-
-                        if(count > 1)
-                        {
-                            duplicate = true;
-                            break;
-                        }
-                    }
-
-                    if(duplicate)
-                    {
-                        continue;
-                    }
-                }
-
-                if(line.Length < _minimumLength || line.Length > _maximumLength)
-                {
-                    continue;
-                }
-
-                _words.Add(line.ToUpper());
-            }
-
+            _words = GetWords(path, useDoubleLetters);
 
             while(keepPlaying)
             {
@@ -138,9 +99,6 @@ namespace Wordies
                 // Console.WriteLine("Debugging. Word is: " + wordToGuess);
 
                 var answerIsCorrect = false;
-                // var guessClue = "_ _ _ _ _";
-
-                // keyboard.Print();
 
                 Console.WriteLine("Guess your word:");
                 Console.WriteLine(guessSquares);
@@ -151,12 +109,22 @@ namespace Wordies
                 {               
                     var answer = Console.ReadLine().ToUpper();
                     Console.Clear();
-                    var guessedWord = new Guess(answer, wordToGuess);
                     var verifyGuess = true;
+
+                    if(answer.Length != wordToGuess.Length)
+                    {
+                        verifyGuess = false;
+                        Console.WriteLine("Your answer must contain " + wordToGuess.Length + " letters.");
+                        keyboard.Print();
+                        PrintGuesses(guessedWords);
+                        continue;
+                    }
+
+                    var guessedWord = new Guess(answer, wordToGuess);
 
                     // Send the whole guess words list in, dummy. Read the chars from that and copy that charguess into the keyboard.
                     // Keep the one that's most correct.
-
+                    
                     if(_isHardcoreMode && !guessedWord.UsedRequiredLetters(previousGuess))
                     {
                         verifyGuess = false;
@@ -255,6 +223,52 @@ namespace Wordies
             }
 
             File.AppendAllText(_reportedWordsPath, reportedWord + Environment.NewLine);
+        }
+
+        private List<string> GetWords(string path, bool useDoubleLetters = true)
+        {
+            List<string> words = new List<string>();
+
+            foreach(string line in File.ReadLines(path))
+            {
+                if(!useDoubleLetters)
+                {
+                    var duplicate = false;
+
+                    foreach(char letter in line)
+                    {
+                        var count = 0;
+
+                        foreach(char character in line)
+                        {
+                            if(character == letter)
+                            {
+                                count++;
+                            }
+                        }
+
+                        if(count > 1)
+                        {
+                            duplicate = true;
+                            break;
+                        }
+                    }
+
+                    if(duplicate)
+                    {
+                        continue;
+                    }
+                }
+
+                if(line.Length < _minimumLength || line.Length > _maximumLength)
+                {
+                    continue;
+                }
+
+                words.Add(line.ToUpper());
+            }
+
+            return words;
         }
     }
 }
