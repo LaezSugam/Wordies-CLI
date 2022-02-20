@@ -23,7 +23,7 @@ namespace Wordies
         public void Run()
         {
             var useDoubleLetters = true;
-            var path = Directory.GetCurrentDirectory() + "\\wordLists\\primaryWordList.txt";
+            var path = Directory.GetCurrentDirectory() + "\\wordLists\\";
 
             Console.OutputEncoding = System.Text.Encoding.UTF8;
 
@@ -220,44 +220,50 @@ namespace Wordies
         {
             List<string> words = new List<string>();
 
-            foreach(string line in File.ReadLines(path))
+            for(var i = _minimumLength; i <= _maximumLength; i++)
             {
-                if(!useDoubleLetters)
+                var tempPath = path + i + "letterWords.txt";
+
+                foreach(string line in File.ReadLines(tempPath))
                 {
-                    var duplicate = false;
-
-                    foreach(char letter in line)
+                    if(!useDoubleLetters)
                     {
-                        var count = 0;
+                        var duplicate = false;
 
-                        foreach(char character in line)
+                        foreach(char letter in line)
                         {
-                            if(character == letter)
+                            var count = 0;
+
+                            foreach(char character in line)
                             {
-                                count++;
+                                if(character == letter)
+                                {
+                                    count++;
+                                }
+                            }
+
+                            if(count > 1)
+                            {
+                                duplicate = true;
+                                break;
                             }
                         }
 
-                        if(count > 1)
+                        if(duplicate)
                         {
-                            duplicate = true;
-                            break;
+                            continue;
                         }
                     }
 
-                    if(duplicate)
+                    if(line.Length < _minimumLength || line.Length > _maximumLength)
                     {
                         continue;
                     }
-                }
 
-                if(line.Length < _minimumLength || line.Length > _maximumLength)
-                {
-                    continue;
+                    words.Add(line.ToUpper());
                 }
-
-                words.Add(line.ToUpper());
             }
+
 
             return words;
         }
