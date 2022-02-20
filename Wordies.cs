@@ -22,13 +22,34 @@ namespace Wordies
 
         public void Run()
         {
+            GameSetup();
+
+            GameLoop();
+        }
+
+        private void GameSetup()
+        {
             var useDoubleLetters = true;
             var path = Directory.GetCurrentDirectory() + "\\wordLists\\";
 
             Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-            var keepPlaying = true;
+            SetOptions();
 
+            _words = GetWords(path, useDoubleLetters);
+        }
+
+        private void SetOptions()
+        {
+            CheckHardcoreEnabled();
+
+            GetMinimumWordLength();
+
+            GetMaximumWordLength();
+        }
+
+        private void CheckHardcoreEnabled()
+        {
             Console.WriteLine("With hardcore mode enabled, if you guess a letter that is in the word or correct");
             Console.WriteLine("you must use that letter in all subsequent guesses.");
             Console.WriteLine("Enable hardcore mode? (Y/N):");
@@ -46,7 +67,10 @@ namespace Wordies
                 System.Threading.Thread.Sleep(1000);
                 Console.Clear();
             }
+        }
 
+        private void GetMinimumWordLength()
+        {
             Console.WriteLine("Enter minimum word length.");
             Console.WriteLine("Press ENTER without a length for default length (default is 5)");
             var readLineValue = Console.ReadLine();
@@ -58,10 +82,14 @@ namespace Wordies
             }
 
             Console.Clear();
+        }
 
+        private void GetMaximumWordLength()
+        {
             Console.WriteLine("Enter maximum word length.");
             Console.WriteLine("Press ENTER without a length for default length (default is 5)");
-            readLineValue = Console.ReadLine();
+            var readLineValue = Console.ReadLine();
+            int readLength;
             
             if(readLineValue != "" && Int32.TryParse(readLineValue, out readLength))
             {
@@ -74,8 +102,11 @@ namespace Wordies
             }
 
             Console.Clear();
+        }
 
-            _words = GetWords(path, useDoubleLetters);
+        private void GameLoop()
+        {
+            var keepPlaying = true;
 
             while(keepPlaying)
             {
