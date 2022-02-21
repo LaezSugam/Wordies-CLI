@@ -10,7 +10,7 @@ namespace Wordies
 
         private int _minimumLength = 5;
         private int _maximumLength = 5;
-
+        private bool _wordleMode = false;
         private bool _isHardcoreMode = false;
 
         private string _reportedWordsPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\Wordies Reported Words.txt";
@@ -41,11 +41,28 @@ namespace Wordies
 
         private void SetOptions()
         {
+            GetGameType();
+
             CheckHardcoreEnabled();
+
+            if(_wordleMode)
+            {
+                return;
+            }
 
             GetMinimumWordLength();
 
             GetMaximumWordLength();
+        }
+
+        private void GetGameType()
+        {
+            Console.WriteLine("Select Game Type: Type 1 for Wordies. Type 2 for Wordle.");
+
+            if(Console.ReadLine() == "2")
+            {
+                _wordleMode = true;
+            }
         }
 
         private void CheckHardcoreEnabled()
