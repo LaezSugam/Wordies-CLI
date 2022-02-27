@@ -10,6 +10,8 @@ namespace Wordies
 
         private int _minimumLength = 5;
         private int _maximumLength = 5;
+        private int _guesses = 6;
+        private int _score;
         private bool _wordleMode = false;
         private bool _isHardcoreMode = false;
 
@@ -53,6 +55,8 @@ namespace Wordies
             GetMinimumWordLength();
 
             GetMaximumWordLength();
+
+            SetGuesses();
         }
 
         private void GetGameType()
@@ -121,9 +125,16 @@ namespace Wordies
             Console.Clear();
         }
 
+        private void SetGuesses()
+        {
+            _guesses = 10;
+        }
+
         private void GameLoop()
         {
             var keepPlaying = true;
+            var round = 0;
+            var correctCharacters = 0;
 
             while(keepPlaying)
             {
@@ -132,7 +143,6 @@ namespace Wordies
                 var rand = new Random();
                 var wordToGuess = _words[rand.Next(_words.Count)].ToUpper();
                 // wordToGuess = "BRASS";
-                var guesses = 6;
                 var guessedWords = new List<Guess>();
                 var keyboard = new Keyboard();
                 string guessSquares = "";
@@ -153,7 +163,7 @@ namespace Wordies
 
                 Guess previousGuess = null;
 
-                while(!answerIsCorrect && guesses > 0)
+                while(!answerIsCorrect && round < _guesses)
                 {               
                     var answer = Console.ReadLine().ToUpper();
                     Console.Clear();
@@ -167,7 +177,10 @@ namespace Wordies
                         continue;
                     }
 
+                    var roundPointValue = Math.Max(1, 5 - round);
+
                     var guessedWord = new Guess(answer, wordToGuess);
+                    
 
                     // Send the whole guess words list in, dummy. Read the chars from that and copy that charguess into the keyboard.
                     // Keep the one that's most correct.
@@ -184,6 +197,8 @@ namespace Wordies
                         {
                             Console.WriteLine("You got it! Congratulations!");
                             answerIsCorrect = true;
+                            _score += (guessedWord.CorrectCharacters - correctCharacters) * roundPointValue;
+                            correctCharacters = guessedWord.CorrectCharacters;
                             guessedWords.Add(guessedWord);
                             keyboard.Update(guessedWord);
                         }
@@ -197,12 +212,14 @@ namespace Wordies
                         }
                         else
                         {
-                            guesses--;
+                            _score += (guessedWord.CorrectCharacters - correctCharacters) * roundPointValue;
+                            correctCharacters = guessedWord.CorrectCharacters;
+                            round++;
                             guessedWords.Add(guessedWord);
                             previousGuess = guessedWord;
                         
                             keyboard.Update(guessedWord);
-                            if(guesses <= 0)
+                            if(round >= _guesses)
                             {
                                 PrintGuesses(guessedWords);
 
@@ -231,6 +248,9 @@ namespace Wordies
                 if(Console.ReadLine().ToUpper() == "Y")
                 {
                     Console.Clear();
+                    _score = 0;
+                    round = 0;
+                    correctCharacters = 0;
                     keepPlaying = true;
                 }
             }
@@ -250,6 +270,11 @@ namespace Wordies
             {
                 Console.WriteLine("");
             }
+        }
+
+        private void PrintScore()
+        {
+            Console.WriteLine("Score: " + _score);
         }
 
         private void ReportWord(string reportedWord)
@@ -318,13 +343,15 @@ namespace Wordies
 
         private void PrintGameScreen(Keyboard keyboard, List<Guess> guessedWords)
         {
-            PrintReturns(3);
+            PrintScore();
 
-            keyboard.Print();
+            PrintReturns(2);
+
+            PrintGuesses(guessedWords);
 
             PrintReturns(2);
             
-            PrintGuesses(guessedWords);
+            keyboard.Print();
         }
     }
 }

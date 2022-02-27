@@ -14,7 +14,14 @@ namespace Wordies
             get{ return _charGuesses;}
         }
 
+        public int CorrectCharacters
+        {
+            get{return _correctCharacters;}
+        }
+
         private List<CharGuess> _charGuesses = new List<CharGuess>();
+
+        private int _correctCharacters;
 
         public Guess (string guess, string answer)
         {
@@ -58,6 +65,7 @@ namespace Wordies
                 {
                     charGuess.IsCorrect = true;
                     charGuess.IsInWord = true;
+                    _correctCharacters++;
                 }
 
                 _charGuesses[i] = charGuess;
