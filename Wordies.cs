@@ -14,6 +14,12 @@ namespace Wordies
         private int _score;
         private bool _wordleMode = false;
         private bool _isHardcoreMode = false;
+        private int _round = 0;
+
+        private int _roundPointValue 
+        {
+            get { return Math.Max(1, 5 - _round) * 100;}
+        }
 
         private string _reportedWordsPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\Wordies Reported Words.txt";
 
@@ -133,7 +139,6 @@ namespace Wordies
         private void GameLoop()
         {
             var keepPlaying = true;
-            var round = 0;
             var correctCharacters = 0;
 
             while(keepPlaying)
@@ -154,7 +159,7 @@ namespace Wordies
 
                 Console.WriteLine("W-O-R-D-I-E-S");
 
-                // Console.WriteLine("Debugging. Word is: " + wordToGuess);
+                Console.WriteLine("Debugging. Word is: " + wordToGuess);
 
                 var answerIsCorrect = false;
 
@@ -163,7 +168,7 @@ namespace Wordies
 
                 Guess previousGuess = null;
 
-                while(!answerIsCorrect && round < _guesses)
+                while(!answerIsCorrect && _round < _guesses)
                 {               
                     var answer = Console.ReadLine().ToUpper();
                     Console.Clear();
@@ -176,8 +181,6 @@ namespace Wordies
                         PrintGameScreen(keyboard, guessedWords);
                         continue;
                     }
-
-                    var roundPointValue = Math.Max(1, 5 - round);
 
                     var guessedWord = new Guess(answer, wordToGuess);
                     
@@ -197,7 +200,8 @@ namespace Wordies
                         {
                             Console.WriteLine("You got it! Congratulations!");
                             answerIsCorrect = true;
-                            _score += (guessedWord.CorrectCharacters - correctCharacters) * roundPointValue;
+                            UpdateScore(guessedWord, correctCharacters);
+                            _score = _score * GetScoreMultiplier();
                             correctCharacters = guessedWord.CorrectCharacters;
                             guessedWords.Add(guessedWord);
                             keyboard.Update(guessedWord);
@@ -212,14 +216,14 @@ namespace Wordies
                         }
                         else
                         {
-                            _score += (guessedWord.CorrectCharacters - correctCharacters) * roundPointValue;
+                            UpdateScore(guessedWord, correctCharacters);
                             correctCharacters = guessedWord.CorrectCharacters;
-                            round++;
+                            _round++;
                             guessedWords.Add(guessedWord);
                             previousGuess = guessedWord;
                         
                             keyboard.Update(guessedWord);
-                            if(round >= _guesses)
+                            if(_round >= _guesses)
                             {
                                 PrintGuesses(guessedWords);
 
@@ -249,7 +253,7 @@ namespace Wordies
                 {
                     Console.Clear();
                     _score = 0;
-                    round = 0;
+                    _round = 0;
                     correctCharacters = 0;
                     keepPlaying = true;
                 }
@@ -339,6 +343,16 @@ namespace Wordies
 
 
             return words;
+        }
+
+        private void UpdateScore(Guess guessedWord, int correctCharacters)
+        {
+            _score += Math.Max((guessedWord.CorrectCharacters - correctCharacters), 0) * _roundPointValue;
+        }
+
+        private int GetScoreMultiplier()
+        {
+            return Math.Max(1, 5 - _round);
         }
 
         private void PrintGameScreen(Keyboard keyboard, List<Guess> guessedWords)
