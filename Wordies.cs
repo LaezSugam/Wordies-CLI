@@ -6,15 +6,21 @@ namespace Wordies
 
     class Wordies
     {
+        private const int defaultAvailableGuesses = 10;
+        private const int defaultNumberOfWordsToGuess = 5;
+
         private List<string> _words = new List<string>();
 
         private int _minimumLength = 5;
         private int _maximumLength = 5;
-        private int _guesses = 6;
-        private int _score;
+        private int _guessesAvailable = 6;
+        private int _roundScore;
+        private int _overallScore;
         private bool _wordleMode = false;
         private bool _isHardcoreMode = false;
         private int _round = 0;
+        private int _guessesUsed = 0;
+        private int _numberOfWordsToGuess = defaultNumberOfWordsToGuess;
 
         private int _roundPointValue 
         {
@@ -133,17 +139,17 @@ namespace Wordies
 
         private void SetGuesses()
         {
-            _guesses = 10;
+            _guessesAvailable = defaultAvailableGuesses;
         }
 
         private void GameLoop()
         {
             var keepPlaying = true;
-            var correctCharacters = 0;
 
             while(keepPlaying)
             {
                 keepPlaying = false;
+                var correctCharacters = 0;
 
                 var rand = new Random();
                 var wordToGuess = _words[rand.Next(_words.Count)].ToUpper();
@@ -168,7 +174,7 @@ namespace Wordies
 
                 Guess previousGuess = null;
 
-                while(!answerIsCorrect && _round < _guesses)
+                while(!answerIsCorrect && _guessesUsed < _guessesAvailable)
                 {               
                     var answer = Console.ReadLine().ToUpper();
                     Console.Clear();
@@ -201,7 +207,15 @@ namespace Wordies
                             Console.WriteLine("You got it! Congratulations!");
                             answerIsCorrect = true;
                             UpdateScore(guessedWord, correctCharacters);
-                            _score = _score * GetScoreMultiplier();
+                            _roundScore = _roundScore * GetRoundScoreMultiplier();
+                            _overallScore += _roundScore;
+
+                            if(!_wordleMode)
+                            {
+                                _guessesAvailable += Math.Max(0, 3 - _round);
+                                _numberOfWordsToGuess --;
+                            }
+                            
                             correctCharacters = guessedWord.CorrectCharacters;
                             guessedWords.Add(guessedWord);
                             keyboard.Update(guessedWord);
@@ -219,11 +233,12 @@ namespace Wordies
                             UpdateScore(guessedWord, correctCharacters);
                             correctCharacters = guessedWord.CorrectCharacters;
                             _round++;
+                            _guessesUsed++;
                             guessedWords.Add(guessedWord);
                             previousGuess = guessedWord;
                         
                             keyboard.Update(guessedWord);
-                            if(_round >= _guesses)
+                            if(_guessesUsed >= _guessesAvailable)
                             {
                                 PrintGuesses(guessedWords);
 
@@ -257,8 +272,10 @@ namespace Wordies
                     if(Console.ReadLine().ToUpper() == "Y")
                     {
                         Console.Clear();
-                        _score = 0;
+                        _roundScore = 0;
+                        _overallScore = 0;
                         _round = 0;
+                        _guessesUsed = 0;
                         correctCharacters = 0;
                         keepPlaying = true;   
                     }
@@ -270,15 +287,35 @@ namespace Wordies
                 // 2) Allow the user to pick a letter from the current word that will be in the next word
                 // 3) Save the current round score off into an overall score bucket and reset the current round score
                 // Probably some other stuff
-                Console.WriteLine("Play Again? Y/N");
-                if(Console.ReadLine().ToUpper() == "Y")
+              
+                if(_guessesUsed < _guessesAvailable && _numberOfWordsToGuess > 0)
                 {
                     Console.Clear();
-                    _score = 0;
                     _round = 0;
+                    _roundScore = 0;
                     correctCharacters = 0;
                     keepPlaying = true;
+                    Console.WriteLine("Guesses remaining: " + (_guessesAvailable - _guessesUsed) + "     Words remaining: " + _numberOfWordsToGuess);
                 }
+                else
+                {
+                    GameEndScreen();
+
+                    Console.WriteLine("Play Again? Y/N");
+                    if(Console.ReadLine().ToUpper() == "Y")
+                    {
+                        Console.Clear();
+                        _roundScore = 0;
+                        _overallScore = 0;
+                        _round = 0;
+                        _guessesUsed = 0;
+                        _guessesAvailable = defaultAvailableGuesses;
+                        _numberOfWordsToGuess = defaultNumberOfWordsToGuess;
+                        correctCharacters = 0;
+                        keepPlaying = true;   
+                    }
+                }
+
             }
         }
 
@@ -300,7 +337,7 @@ namespace Wordies
 
         private void PrintScore()
         {
-            Console.WriteLine("Score: " + _score);
+            Console.WriteLine("Score: " + _roundScore);
         }
 
         private void ReportWord(string reportedWord)
@@ -369,10 +406,10 @@ namespace Wordies
 
         private void UpdateScore(Guess guessedWord, int correctCharacters)
         {
-            _score += Math.Max((guessedWord.CorrectCharacters - correctCharacters), 0) * _roundPointValue;
+            _roundScore += Math.Max((guessedWord.CorrectCharacters - correctCharacters), 0) * _roundPointValue;
         }
 
-        private int GetScoreMultiplier()
+        private int GetRoundScoreMultiplier()
         {
             return Math.Max(1, 5 - _round);
         }
@@ -383,9 +420,18 @@ namespace Wordies
 
             Console.Clear();
 
-            Console.WriteLine("Score: " + _score);
+            Console.WriteLine("Score: " + _overallScore);
 
             PrintReturns();
+
+            if(_numberOfWordsToGuess <= 0)
+            {
+                Console.WriteLine("Congratulations, you got all of the words correct!");
+                
+                endScoreMultiplier += .25;
+
+                PrintReturns();
+            }
 
             if(_isHardcoreMode)
             {
@@ -396,7 +442,7 @@ namespace Wordies
                 PrintReturns();
             }
 
-            var guessesRemaining = _guesses - _round - 1; //This will need to be adjusted to take into account full game guesses
+            var guessesRemaining = _guessesAvailable - _guessesUsed - 1;
             if(guessesRemaining > 0)
             {
                 Console.WriteLine( "*" + guessesRemaining + " Guesses Remaining Bonus*");
@@ -406,9 +452,9 @@ namespace Wordies
                 PrintReturns();
             }
 
-            _score = (int) (_score * endScoreMultiplier);
+            _overallScore = (int) (_overallScore * endScoreMultiplier);
 
-            Console.WriteLine("FINAL SCORE: " + _score);
+            Console.WriteLine("FINAL SCORE: " + _overallScore);
 
         }
 
