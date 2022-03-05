@@ -248,6 +248,28 @@ namespace Wordies
                     ReportWord(wordToGuess);
                 }
 
+                if(_wordleMode)
+                {
+                    GameEndScreen();
+                    PrintReturns(2);
+                    //If we're in Wordle mode we want to reset and pick a new word
+                    Console.WriteLine("Play Again? Y/N");
+                    if(Console.ReadLine().ToUpper() == "Y")
+                    {
+                        Console.Clear();
+                        _score = 0;
+                        _round = 0;
+                        correctCharacters = 0;
+                        keepPlaying = true;   
+                    }
+                    continue;
+                }
+
+                //In Wordies mode this will be replace with
+                // 1) Figure out how many guesses we used this round and if under a certain number add some bonus guess
+                // 2) Allow the user to pick a letter from the current word that will be in the next word
+                // 3) Save the current round score off into an overall score bucket and reset the current round score
+                // Probably some other stuff
                 Console.WriteLine("Play Again? Y/N");
                 if(Console.ReadLine().ToUpper() == "Y")
                 {
@@ -268,7 +290,7 @@ namespace Wordies
             }
         }
 
-        private void PrintReturns(int numOfReturns)
+        private void PrintReturns(int numOfReturns = 1)
         {
             for(var i = 0; i < numOfReturns; i++)
             {
@@ -353,6 +375,41 @@ namespace Wordies
         private int GetScoreMultiplier()
         {
             return Math.Max(1, 5 - _round);
+        }
+
+        private void GameEndScreen()
+        {
+            double endScoreMultiplier = 1.0;
+
+            Console.Clear();
+
+            Console.WriteLine("Score: " + _score);
+
+            PrintReturns();
+
+            if(_isHardcoreMode)
+            {
+                Console.WriteLine("*Hardcore Bonus*");
+
+                endScoreMultiplier += .5;
+
+                PrintReturns();
+            }
+
+            var guessesRemaining = _guesses - _round - 1; //This will need to be adjusted to take into account full game guesses
+            if(guessesRemaining > 0)
+            {
+                Console.WriteLine( "*" + guessesRemaining + " Guesses Remaining Bonus*");
+
+                endScoreMultiplier += (.1 * guessesRemaining);
+
+                PrintReturns();
+            }
+
+            _score = (int) (_score * endScoreMultiplier);
+
+            Console.WriteLine("FINAL SCORE: " + _score);
+
         }
 
         private void PrintGameScreen(Keyboard keyboard, List<Guess> guessedWords)
