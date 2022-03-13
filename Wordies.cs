@@ -6,10 +6,9 @@ namespace Wordies
 
     class Wordies
     {
-        private const int defaultAvailableGuesses = 10;
-        private const int defaultNumberOfWordsToGuess = 5;
-
         private List<string> _words = new List<string>();
+
+        private Settings _settings = new Settings().ReadOrDefaultSettings();
 
         private int _minimumLength = 5;
         private int _maximumLength = 5;
@@ -20,7 +19,7 @@ namespace Wordies
         private bool _isHardcoreMode = false;
         private int _round = 0;
         private int _guessesUsed = 0;
-        private int _numberOfWordsToGuess = defaultNumberOfWordsToGuess;
+        private int _numberOfWordsToGuess;
 
         private int _roundPointValue 
         {
@@ -31,7 +30,7 @@ namespace Wordies
 
         public Wordies()
         {
-
+            _numberOfWordsToGuess = _settings.numberOfWordsToGuess;
         }
 
         public void Run()
@@ -139,7 +138,7 @@ namespace Wordies
 
         private void SetGuesses()
         {
-            _guessesAvailable = defaultAvailableGuesses;
+            _guessesAvailable = _settings.availableGuesses;
         }
 
         private void GameLoop()
@@ -153,7 +152,6 @@ namespace Wordies
 
                 var rand = new Random();
                 var wordToGuess = _words[rand.Next(_words.Count)].ToUpper();
-                // wordToGuess = "BRASS";
                 var guessedWords = new List<Guess>();
                 var keyboard = new Keyboard();
                 string guessSquares = "";
@@ -164,8 +162,6 @@ namespace Wordies
                 }
 
                 Console.WriteLine("W-O-R-D-I-E-S");
-
-                Console.WriteLine("Debugging. Word is: " + wordToGuess);
 
                 var answerIsCorrect = false;
 
@@ -184,7 +180,7 @@ namespace Wordies
                     {
                         verifyGuess = false;
                         Console.WriteLine("Your answer must contain " + wordToGuess.Length + " letters.");
-                        PrintGameScreen(keyboard, guessedWords);
+                        PrintGameScreen(keyboard, guessedWords, wordToGuess);
                         continue;
                     }
 
@@ -254,7 +250,7 @@ namespace Wordies
                         }
                     }
 
-                    PrintGameScreen(keyboard, guessedWords);
+                    PrintGameScreen(keyboard, guessedWords, wordToGuess);
                 }
 
                 Console.WriteLine("Report word? Y/N");
@@ -309,8 +305,8 @@ namespace Wordies
                         _overallScore = 0;
                         _round = 0;
                         _guessesUsed = 0;
-                        _guessesAvailable = defaultAvailableGuesses;
-                        _numberOfWordsToGuess = defaultNumberOfWordsToGuess;
+                        _guessesAvailable = _settings.availableGuesses;
+                        _numberOfWordsToGuess = _settings.numberOfWordsToGuess;
                         correctCharacters = 0;
                         keepPlaying = true;   
                     }
@@ -458,8 +454,14 @@ namespace Wordies
 
         }
 
-        private void PrintGameScreen(Keyboard keyboard, List<Guess> guessedWords)
+        private void PrintGameScreen(Keyboard keyboard, List<Guess> guessedWords, string wordToGuess)
         {
+            if(_settings.showAnswer)
+            {
+                Console.WriteLine("Debugging. Word is: " + wordToGuess);
+                PrintReturns();
+            }
+
             PrintScore();
 
             PrintReturns(2);
