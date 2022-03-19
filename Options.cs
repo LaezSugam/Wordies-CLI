@@ -68,6 +68,7 @@ namespace Wordies
         {
             Console.Clear();
             Console.WriteLine("HARDCORE MODE");
+            PrintReturns();
             Console.WriteLine("With hardcore mode enabled, if you guess a letter that is in the word or correct");
             Console.WriteLine("you must use that letter in all subsequent guesses.");
             Console.WriteLine("Enable hardcore mode? (Y/N):");

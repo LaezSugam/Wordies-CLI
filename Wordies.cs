@@ -84,6 +84,7 @@ namespace Wordies
 
                 SetupFromOptions();
                 SetGuesses();
+                break;
             }
   
         }
@@ -164,7 +165,7 @@ namespace Wordies
                             Console.WriteLine("You got it! Congratulations!");
                             answerIsCorrect = true;
                             UpdateScore(guessedWord, correctCharacters);
-                            _roundScore = _roundScore * GetRoundScoreMultiplier();
+                            _roundScore = (int) (_roundScore * GetRoundScoreMultiplier(wordToGuess.Length));
                             _overallScore += _roundScore;
 
                             if(!_wordleMode)
@@ -366,9 +367,11 @@ namespace Wordies
             _roundScore += Math.Max((guessedWord.CorrectCharacters - correctCharacters), 0) * _roundPointValue;
         }
 
-        private int GetRoundScoreMultiplier()
+        private double GetRoundScoreMultiplier(int wordLength)
         {
-            return Math.Max(1, 5 - _round);
+            double lengthMultiplier = (wordLength - 5) * .1 + 1;
+
+            return Math.Max(1, 5 - _round) * lengthMultiplier;
         }
 
         private void GameEndScreen()
@@ -394,7 +397,7 @@ namespace Wordies
             {
                 Console.WriteLine("*Hardcore Bonus*");
 
-                endScoreMultiplier += .5;
+                endScoreMultiplier += 1;
 
                 PrintReturns();
             }
