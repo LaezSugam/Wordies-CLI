@@ -11,6 +11,8 @@ namespace Wordies
         private Settings _settings = new Settings().ReadOrDefaultSettings();
         private Options _options = new Options().ReadOrDefaultOptions();
 
+        private Scoreboard _scoreboard = new Scoreboard().ReadOrDefaultScoreboard();
+
         private int _minimumLength = 5;
         private int _maximumLength = 5;
         private int _guessesAvailable = 6;
@@ -415,6 +417,60 @@ namespace Wordies
             _overallScore = (int) (_overallScore * endScoreMultiplier);
 
             Console.WriteLine("FINAL SCORE: " + _overallScore);
+
+            var isNewHighScore = false;
+
+            if(_wordleMode)
+            {
+                isNewHighScore = _scoreboard.IsNewWordleHighScore(_overallScore);
+            }
+            else
+            {
+                isNewHighScore = _scoreboard.IsNewWordiesHighScore(_overallScore);
+            }
+
+            if(isNewHighScore)
+            {
+                PrintReturns(2);
+                Console.WriteLine("CONGRATULATIONS. You have a new high score! Please enter initials.");
+
+                var input = Console.ReadLine().ToUpper();
+
+                input = input.Length > 3 ? input.Substring(0, 3) : input;
+
+                if(_wordleMode)
+                {
+                    _scoreboard.UpdateWordleHighScores(_overallScore, input);
+                    _scoreboard.PrintWordleScores();
+                }
+                else
+                {
+                    _scoreboard.UpdateWordiesHighScores(_overallScore, input);
+                    _scoreboard.PrintWordiesScores();
+                }
+
+                Console.WriteLine("Press ENTER to continue.");
+                Console.ReadKey();
+                Console.Clear();
+            }
+            else
+            {
+                Console.WriteLine("Press ENTER to continue.");
+                Console.ReadKey();
+
+                if(_wordleMode)
+                {
+                    _scoreboard.PrintWordleScores();
+                }
+                else
+                {
+                    _scoreboard.PrintWordiesScores();
+                }
+
+                Console.WriteLine("Press ENTER to continue.");
+                Console.ReadKey();
+                Console.Clear();
+            }
 
         }
 

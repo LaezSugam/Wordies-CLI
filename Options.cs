@@ -77,6 +77,10 @@ namespace Wordies
             {
                 Hardcore = true;
             }
+            else
+            {
+                Hardcore = false;
+            }
 
             Console.Clear();
 
