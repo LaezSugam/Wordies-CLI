@@ -9,6 +9,7 @@ namespace Wordies
         private List<string> _words = new List<string>();
 
         private Settings _settings = new Settings().ReadOrDefaultSettings();
+        private Options _options = new Options().ReadOrDefaultOptions();
 
         private int _minimumLength = 5;
         private int _maximumLength = 5;
@@ -47,94 +48,54 @@ namespace Wordies
 
             Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-            SetOptions();
+            SetUpGame();
 
             _words = GetWords(path, useDoubleLetters);
         }
 
-        private void SetOptions()
+        private void SetUpGame()
         {
-            GetGameType();
-
-            CheckHardcoreEnabled();
-
-            if(_wordleMode)
+            while(true)
             {
-                return;
+                Console.WriteLine("Type 1 to play Wordies. Type 2 to play Wordle. Type 3 for Options.");
+                var input = Console.ReadLine();
+
+                if(input == "2" || input.ToUpper() == "WORDLE")
+                {
+                    _minimumLength = 5;
+                    _maximumLength = 5;
+                    _isHardcoreMode = _options.Hardcore;
+                    _wordleMode = true;
+                    break;
+                }
+
+                if(input == "3" || input.ToUpper() == "OPTIONS" || input.ToUpper() == "OPTION")
+                {
+                    _options.GetHardcoreEnabled();
+
+                    _options.GetMinimumWordLength();
+
+                    _options.GetMaximumWordLength();
+
+                    _options.WriteOptions();
+
+                    continue;
+                }
+
+                SetupFromOptions();
+                SetGuesses();
             }
-
-            GetMinimumWordLength();
-
-            GetMaximumWordLength();
-
-            SetGuesses();
+  
         }
 
-        private void GetGameType()
+        private void SetupFromOptions()
         {
-            Console.WriteLine("Select Game Type: Type 1 for Wordies. Type 2 for Wordle.");
-
-            if(Console.ReadLine() == "2")
-            {
-                _wordleMode = true;
-            }
+            _minimumLength = _options.MinimumWordLength;
+            _maximumLength = _options.MaximumWordLength;
+            _isHardcoreMode = _options.Hardcore;
         }
 
-        private void CheckHardcoreEnabled()
-        {
-            Console.WriteLine("With hardcore mode enabled, if you guess a letter that is in the word or correct");
-            Console.WriteLine("you must use that letter in all subsequent guesses.");
-            Console.WriteLine("Enable hardcore mode? (Y/N):");
-
-            if(Console.ReadLine().ToUpper() == "Y")
-            {
-                _isHardcoreMode = true;
-            }
-
-            Console.Clear();
-
-            if(_isHardcoreMode)
-            {
-                Console.WriteLine("Hardcore mode enabled.");
-                System.Threading.Thread.Sleep(1000);
-                Console.Clear();
-            }
-        }
-
-        private void GetMinimumWordLength()
-        {
-            Console.WriteLine("Enter minimum word length.");
-            Console.WriteLine("Press ENTER without a length for default length (default is 5)");
-            var readLineValue = Console.ReadLine();
-            int readLength;
-            
-            if(readLineValue != "" && Int32.TryParse(readLineValue, out readLength))
-            {
-                _minimumLength = readLength;
-            }
-
-            Console.Clear();
-        }
-
-        private void GetMaximumWordLength()
-        {
-            Console.WriteLine("Enter maximum word length.");
-            Console.WriteLine("Press ENTER without a length for default length (default is 5)");
-            var readLineValue = Console.ReadLine();
-            int readLength;
-            
-            if(readLineValue != "" && Int32.TryParse(readLineValue, out readLength))
-            {
-                _maximumLength = readLength;
-            }
-
-            if(_maximumLength < _minimumLength)
-            {
-                _maximumLength = _minimumLength;
-            }
-
-            Console.Clear();
-        }
+        
 
         private void SetGuesses()
         {
