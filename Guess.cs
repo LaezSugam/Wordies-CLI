@@ -56,7 +56,7 @@ namespace Wordies
 
         private void VerifyGuess()
         {
-            for(int i = 0; i < Answer.Length; i++)
+            for(int i = 0; i < PlayerGuess.Length; i++)
             {
                 var charGuess = _charGuesses[i];
                 charGuess.BeenGuessed = true;
@@ -71,7 +71,7 @@ namespace Wordies
                 _charGuesses[i] = charGuess;
             }
 
-            for(int i = 0; i < Answer.Length; i++)
+            for(int i = 0; i < PlayerGuess.Length; i++)
             {
                 var charGuess = _charGuesses[i];
 

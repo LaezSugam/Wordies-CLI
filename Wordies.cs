@@ -3,6 +3,7 @@ namespace Wordies
     using System;
     using System.Collections.Generic;
     using System.IO;
+    using System.Linq;
 
     class Wordies
     {
@@ -23,6 +24,7 @@ namespace Wordies
         private int _round = 0;
         private int _guessesUsed = 0;
         private int _numberOfWordsToGuess;
+        private char _carryOverCharacter = ' ';
 
         private int _roundPointValue 
         {
@@ -115,14 +117,36 @@ namespace Wordies
                 var correctCharacters = 0;
 
                 var rand = new Random();
-                var wordToGuess = _words[rand.Next(_words.Count)].ToUpper();
+                var words = _words;
+
+                if(_carryOverCharacter != ' ')
+                {
+                    words = words.Where(w => w.ToUpper().Contains(_carryOverCharacter)).ToList();
+                }
+
+                var wordToGuess = words[rand.Next(words.Count)].ToUpper();
                 var guessedWords = new List<Guess>();
                 var keyboard = new Keyboard();
+
+                if(_carryOverCharacter != ' ')
+                {
+                    var initialCharacterGuess = new Guess(string.Concat(Enumerable.Repeat(_carryOverCharacter, wordToGuess.Length)), wordToGuess);
+                    keyboard.Update(initialCharacterGuess);
+                }
+
                 string guessSquares = "";
 
                 for(var i = 0; i < wordToGuess.Length; i++)
                 {
-                    guessSquares += "\u25A1 ";
+                    if(wordToGuess[i] == _carryOverCharacter)
+                    {
+                        guessSquares += _carryOverCharacter + " ";
+                        _carryOverCharacter = ' ';
+                    }
+                    else
+                    {
+                        guessSquares += "\u25A1 ";
+                    }  
                 }
 
                 Console.WriteLine("W-O-R-D-I-E-S");
@@ -254,6 +278,7 @@ namespace Wordies
                     _round = 0;
                     _roundScore = 0;
                     correctCharacters = 0;
+                    GetCarryoverCharacter(wordToGuess);
                     keepPlaying = true;
                     Console.WriteLine("Guesses remaining: " + (_guessesAvailable - _guessesUsed) + "     Words remaining: " + _numberOfWordsToGuess);
                 }
@@ -276,6 +301,22 @@ namespace Wordies
                     }
                 }
 
+            }
+        }
+
+        private void GetCarryoverCharacter(string wordToGuess)
+        {
+            Console.Clear();
+
+            Console.WriteLine("Enter a letter from the current word to carry over to next word.");
+            Console.WriteLine("Press ENTER without a letter to continue without carrying a letter forward.");
+            Console.WriteLine("Current word is: " + wordToGuess);
+            var readLine = Console.ReadLine();
+            var carryOverChar = readLine != string.Empty ? readLine.ToUpper()[0] : ' ';
+
+            if(wordToGuess.Contains(carryOverChar))
+            {
+                _carryOverCharacter = carryOverChar;
             }
         }
 
