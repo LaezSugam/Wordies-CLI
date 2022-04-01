@@ -8,6 +8,7 @@ namespace Wordies
     class Scoreboard
     {
         public List<Score> WordiesHighScores {get; set;}
+        public List<Score> InfiniteHighScores {get; set;}
         public List<Score> WordleHighScores {get; set;}
 
 
@@ -47,6 +48,7 @@ namespace Wordies
 
             // Settings file didn't exist, create a default settings file
             scoreboard.WordiesHighScores = new List<Score>();
+            scoreboard.InfiniteHighScores = new List<Score>();
             scoreboard.WordleHighScores = new List<Score>();
             scoreboard.WriteScoreboard();
 
@@ -73,6 +75,11 @@ namespace Wordies
             PrintScores(WordiesHighScores);
         }
 
+        public void PrintInfiniteScores()
+        {
+            PrintScores(InfiniteHighScores);
+        }
+
         private void PrintScores(List<Score> scores)
         {
             Console.Clear();
@@ -96,6 +103,11 @@ namespace Wordies
             return IsNewHighScore(score, WordiesHighScores);
         }
 
+        public bool IsNewInfiniteHighScore(int score)
+        {
+            return IsNewHighScore(score, InfiniteHighScores);
+        }
+
         private bool IsNewHighScore(int score, List<Score> highScores)
         {
             if(highScores.Count < 10 || highScores[highScores.Count - 1].Points < score)
@@ -116,6 +128,13 @@ namespace Wordies
         public void UpdateWordiesHighScores(int score, string name)
         {
             WordiesHighScores = UpdateScoreboard(score, name, WordiesHighScores);
+
+            WriteScoreboard();
+        }
+
+        public void UpdateInfiniteHighScores(int score, string name)
+        {
+            InfiniteHighScores = UpdateScoreboard(score, name, InfiniteHighScores);
 
             WriteScoreboard();
         }

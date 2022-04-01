@@ -24,6 +24,8 @@ namespace Wordies
         private int _round = 0;
         private int _guessesUsed = 0;
         private int _numberOfWordsToGuess;
+
+        private bool _infiniteMode = false;
         private char _carryOverCharacter = ' ';
 
         private int _roundPointValue 
@@ -61,7 +63,7 @@ namespace Wordies
         {
             while(true)
             {
-                Console.WriteLine("Type 1 to play Wordies. Type 2 to play Wordle. Type 3 for Options.");
+                Console.WriteLine("Type 1 to play Wordies. Type 2 to play Wordle. Type 3 for Wordies Infinite. Type 4 for Options.");
                 var input = Console.ReadLine();
 
                 if(input == "2" || input.ToUpper() == "WORDLE")
@@ -73,7 +75,7 @@ namespace Wordies
                     break;
                 }
 
-                if(input == "3" || input.ToUpper() == "OPTIONS" || input.ToUpper() == "OPTION")
+                if(input == "4" || input.ToUpper() == "OPTIONS" || input.ToUpper() == "OPTION")
                 {
                     _options.GetHardcoreEnabled();
 
@@ -84,6 +86,12 @@ namespace Wordies
                     _options.WriteOptions();
 
                     continue;
+                }
+
+                if(input == "3" || input.ToUpper() == "INFINITE")
+                {
+                    _infiniteMode = true;
+                    _numberOfWordsToGuess = int.MaxValue;
                 }
 
                 SetupFromOptions();
@@ -197,7 +205,7 @@ namespace Wordies
                             if(!_wordleMode)
                             {
                                 _guessesAvailable += Math.Max(0, 3 - _round);
-                                _numberOfWordsToGuess --;
+                                _numberOfWordsToGuess = _infiniteMode ? _numberOfWordsToGuess : _numberOfWordsToGuess - 1;
                             }
                             
                             correctCharacters = guessedWord.CorrectCharacters;
@@ -280,7 +288,8 @@ namespace Wordies
                     correctCharacters = 0;
                     GetCarryoverCharacter(wordToGuess);
                     keepPlaying = true;
-                    Console.WriteLine("Guesses remaining: " + (_guessesAvailable - _guessesUsed) + "     Words remaining: " + _numberOfWordsToGuess);
+                    string wordsRemaining = _infiniteMode ? "INFINITE" : _numberOfWordsToGuess.ToString();
+                    Console.WriteLine("Guesses remaining: " + (_guessesAvailable - _guessesUsed) + "     Words remaining: " + wordsRemaining);
                 }
                 else
                 {
@@ -446,7 +455,7 @@ namespace Wordies
             }
 
             var guessesRemaining = _guessesAvailable - _guessesUsed - 1;
-            if(guessesRemaining > 0)
+            if(guessesRemaining > 0 && !_infiniteMode)
             {
                 Console.WriteLine( "*" + guessesRemaining + " Guesses Remaining Bonus*");
 
@@ -464,6 +473,10 @@ namespace Wordies
             if(_wordleMode)
             {
                 isNewHighScore = _scoreboard.IsNewWordleHighScore(_overallScore);
+            }
+            else if(_infiniteMode)
+            {
+                isNewHighScore = _scoreboard.IsNewInfiniteHighScore(_overallScore);
             }
             else
             {
@@ -483,6 +496,11 @@ namespace Wordies
                 {
                     _scoreboard.UpdateWordleHighScores(_overallScore, input);
                     _scoreboard.PrintWordleScores();
+                }
+                else if(_infiniteMode)
+                {
+                    _scoreboard.UpdateInfiniteHighScores(_overallScore, input);
+                    _scoreboard.PrintInfiniteScores();
                 }
                 else
                 {
