@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RE73VusbOPsQBGKkJXinWENF6ahVlvgVY93oslAjRY3TrT6vQztuSqSmvwj3SKmaqfOeP8nSdw9udvMFIi+3bw==",
+  "dgSpecHash": "McetZoQIr2s7D4ZSgs1RvEX7VRb9tY/8MtVoFK83zs36el+pnzN4en7iSZm/OKJLeswujmKu/8L6eSfNIzTMgQ==",
   "success": true,
-  "projectFilePath": "D:\\Coding Projects\\Wordies\\Wordies.csproj",
+  "projectFilePath": "D:\\Coding Projects\\Wordies CLI\\Wordies.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

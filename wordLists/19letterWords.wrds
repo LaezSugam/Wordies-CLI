@@ -1,0 +1,4562 @@
+[
+  {
+    "StringValue": "ABDOMINOHYSTEROTOMY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ADENYLPYROPHOSPHATE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ADENOCHONDROSARCOMA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ADRENOCORTICOTROPIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "AEROBACTERIOLOGICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ALLOTRANSPLANTATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "AMBILATERALATERALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "AMERICANUMANCESTORS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ANATOMICOBIOLOGICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ANATOMICOPATHOLOGIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ANATOMOPATHOLOGICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ANGIOCARDIOGRAPHIES",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ANNIHILATIONISTICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ANTHROPOCENTRICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ANTHROPOCLIMATOLOGY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ANTHROPODEOXYCHOLIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ANTHROPOMORPHICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ANTHROPOMORPHITICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ANTHROPOSOCIOLOGIST",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ANTIANTHROPOCENTRIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ANTICEREMONIOUSNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ANTICOMMERCIALISTIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ANTICOMMUNISTICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ANTICONVENTIONALISM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ANTICONVENTIONALIST",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ANTIECCLESIASTICISM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ANTIEXPRESSIONISTIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ANTIGRAMMATICALNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ANTIGRAVITATIONALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ANTIMECHANISTICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ANTIMONARCHICALNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ANTINATIONALIZATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ANTIPARLIAMENTARIAN",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ANTIPARLIAMENTARIST",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ANTIPHILOSOPHICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ANTIREVOLUTIONARIES",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ANTISOCIALISTICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ANTISUPERNATURALISM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ANTISUPERNATURALIST",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ANTIVIVISECTIONISTS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "APPENDICOCAECOSTOMY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ARCHCONFRATERNITIES",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ARISTOREPUBLICANISM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ASTROMETEOROLOGICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ATHEROSCLEROTICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "AURICULOVENTRICULAR",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "AUTOBASIDIOMYCETOUS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "AUTOCHOLECYSTECTOMY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "AUTODIFFERENTIATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "AUTOSCHEDIASTICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "AUTOSTANDARDIZATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "AUTOTRANSPLANTATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "AZOISOBUTYRONITRILE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BACTERIOCHLOROPHYLL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BACTERIOTHERAPEUTIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BALLISTOCARDIOGRAPH",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BAROTHERMOHYGROGRAM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BASICYTOPARAPLASTIN",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BENZOPHENANTHRAZINE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BENZOPHENANTHROLINE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BENZOPHLOROGLUCINOL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BENZOXYPHENANTHRENE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BIOCLIMATOLOGICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BIOLOGICOHUMANISTIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BLEPHAROBLENNORRHEA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BLEPHAROSYNDESMITIS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BRACHYCEPHALIZATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BRACHIOFACIOLINGUAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BRONCHOCONSTRICTION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BRONCHOMUCORMYCOSIS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CALCANEOASTRAGALOID",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CARDIOTROPHOTHERAPY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CARTILAGINIFICATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CATHODOFLUORESCENCE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CATHODOLUMINESCENCE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CEPHALOTHORACOPAGUS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CHARACTEROLOGICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CHEMICOASTROLOGICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CHEMICOLUMINESCENCE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CHEMOPALLIDECTOMIES",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CHLAMYDOBACTERIALES",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CHLOROFLUOROMETHANE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CHOLECYSTOCOLOSTOMY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CHOLECYSTOILEOSTOMY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CHOLECYSTOLITHIASIS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CHOLEDOCHOLITHIASIS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CHOLEDOCHOLITHOTOMY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CHONDROENDOTHELIOMA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CHORIOEPITHELIOMATA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CHRISTIANOGENTILISM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CHROMATOGRAPHICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CHROMOCHALCOGRAPHIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CHRONOGRAMMATICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CYANOMETHAEMOGLOBIN",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CINEMATOGRAPHICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CIRCUMPARALLELOGRAM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CIRCUMSTANTIABILITY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CIRCUMSTANTIALITIES",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CYSTOPYELONEPHRITIS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CYTOARCHITECTURALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CYTODIFFERENTIATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CLIMATOTHERAPEUTICS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CLINICOPATHOLOGICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "COINSTANTANEOUSNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "COLPOPERINEORRHAPHY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CONCEPTUALISTICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CONTEMPORANEOUSNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CONTRADISTINCTIVELY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CONTRAPARALLELOGRAM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CONTRAREVOLUTIONARY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CONVENTIONALISATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CONVENTIONALIZATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "COSMOPOLITANISATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "COSMOPOLITANIZATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "COUNTERANNOUNCEMENT",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "COUNTERATTRACTIVELY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "COUNTERCONDEMNATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "COUNTERCONDITIONING",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "COUNTERDEMONSTRATOR",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "COUNTEREXAGGERATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "COUNTERINDOCTRINATE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "COUNTERINSURGENCIES",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "COUNTERINTELLIGENCE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "COUNTERORGANIZATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "COUNTERPRODUCTIVELY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "COUNTERPRODUCTIVITY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "COUNTERPROPAGANDIZE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "COUNTERTECHNICALITY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "COUNTERTRANSFERENCE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CRANIORHACHISCHISIS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DECENTRALIZATIONIST",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DEFUNCTIONALIZATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DEHYDROCHLORINATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DEHYDROTESTOSTERONE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DEINDIVIDUALIZATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DEINDUSTRIALIZATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DENDROCHRONOLOGICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DEOXYCORTICOSTERONE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DEOXYRIBONUCLEOTIDE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DEPARTMENTALISATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DEPARTMENTALIZATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DERMATOHETEROPLASTY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DIBROMOACETALDEHYDE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DIETHYLAMINOETHANOL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DIETHYLETHANOLAMINE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DIETHYLSTILBOESTROL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DIHYDROSTREPTOMYCIN",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DIMETHYLNITROSAMINE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DYNAMOMETAMORPHOSED",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DISACKNOWLEDGEMENTS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DISADVANTAGEOUSNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DISENFRANCHISEMENTS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DISHEXECONTAHEDROID",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DISPROPORTIONALNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DISSATISFACTORINESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DISTINGUISHABLENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ECHOENCEPHALOGRAPHY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ELECTROACOUSTICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ELECTROAMALGAMATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ELECTROBALLISTICIAN",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ELECTROBIOLOGICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ELECTROCARDIOGRAPHY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ELECTROCARDIOGRAPHS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ELECTROCATAPHORESIS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ELECTROCATAPHORETIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ELECTROCHRONOMETRIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ELECTRODIALITICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ELECTROHORTICULTURE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ELECTROLUMINESCENCE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ELECTROMAGNETICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ELECTROMECHANICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ELECTROMETALLURGIST",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ELECTROMYOGRAPHICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ELECTROPHYSIOLOGIST",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ELECTROPHORETICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ELECTROPHOTOGRAPHIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ELECTROPHOTOTHERAPY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ELECTROPSYCHROMETER",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ELECTROPUNCTURATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ELECTRORETINOGRAPHY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ELECTROSHERARDIZING",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ELECTROTECHNOLOGIST",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ELECTROTELLUROGRAPH",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ELECTROTHERAPEUTICS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ELECTROTHERAPEUTIST",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ELECTROTHERAPUTICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ELECTROTHERMOSTATIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ENCEPHALOMENINGITIS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ENCEPHALOMYELOPATHY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "EQUIPROPORTIONALITY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ERYTHRODEGENERATIVE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ESOPHAGOGASTROSCOPY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ESOPHAGOGASTROSTOMY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ETHYLDICHLOROARSINE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ETHNOGEOGRAPHICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "EULAMELLIBRANCHIATA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "EULAMELLIBRANCHIATE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "EXCREMENTITIOUSNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "EXPRESSIONISTICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "EXTRACONSTITUTIONAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "EXTRALINGUISTICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "EXTRATERRITORIALITY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "FACIOSCAPULOHUMERAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "FARADOCONTRACTILITY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "GALVANOFARADIZATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "GASTROALBUMINORRHEA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "GASTRODIAPHANOSCOPY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "GASTROENTEROCOLITIS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "GASTROENTEROLOGICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "GASTROENTEROLOGISTS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "GASTROENTEROSTOMIES",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "GASTROESOPHAGOSTOMY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "GASTROJEJUNOSTOMIES",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "GLOSSOEPIGLOTTIDEAN",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "GLOTTOCHRONOLOGICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HELMINTHOCLADIACEAE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HEMATOPORPHYRINURIA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HEPATICOENTEROSTOMY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HEPATICOGASTROSTOMY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HESPERORNITHIFORMES",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HETEROFERTILIZATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYDATOPNEUMATOLYTIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYDROCHLOROTHIAZIDE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYDROCHLORPLATINOUS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYDROCINNAMALDEHYDE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYDROMETEOROLOGICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYDROPNEUMATIZATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYDROTHERAPEUTICIAN",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYPERARCHAEOLOGICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYPERBRACHYCEPHALIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYPERCONSERVATIVELY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYPERCONSTITUTIONAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYPERDIABOLICALNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYPERDIMENSIONALITY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYPERDOLICHOCEPHALY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYPERDOLICHOCRANIAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYPEREPINEPHRINEMIA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYPERFASTIDIOUSNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYPERHEMOGLOBINEMIA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYPERIDEALISTICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYPERINSULINIZATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYPERINTELLECTUALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYPERMIRACULOUSNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYPERPARATHYROIDISM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYPERRIDICULOUSNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYPERSCHOLASTICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYPERSOPHISTICATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYPERSPIRITUALIZING",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYPERSUGGESTIBILITY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYPERSUSCEPTIBILITY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYPERTHYROIDIZATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYPERTRIDIMENSIONAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYPOCHOLESTERINEMIA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYPOCHOLESTEROLEMIA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYPOCRATERIMORPHOUS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYPSIBRACHYCEPHALIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYPSIDOLICHOCEPHALY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYPSIPRYMNODONTINAE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYPSISTENOCEPHALISM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYSTERONEURASTHENIA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HISTOPATHOLOGICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HISTORIOGRAPHERSHIP",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HISTORIOGRAPHICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HOMOTRANSPLANTATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ICHTHYOPALEONTOLOGY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ICHTHYORNITHIFORMES",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "IMMUNOHEMATOLOGICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "IMPOSSIBILIFICATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "IMPRESSIONISTICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "INAUTHORITATIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "INCOMMENSURABLENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "INCOMMUNICATIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "INCOMPASSIONATENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "INCOMPREHENSIBILITY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "INCOMPREHENSIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "INCONTROVERTIBILITY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "INDIVIDUALISTICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "INEXTINGUISHABILITY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "INTEGRODIFFERENTIAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "INTELLECTUALISATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "INTELLECTUALIZATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "INTERCHANGEABLENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "INTERCOMMUNICATIONS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "INTERCONVERTIBILITY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "INTERDENOMINATIONAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "INTERDEPARTMENTALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "INTERDIFFERENTIATED",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "INTERESTERIFICATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "INTERFEROMETRICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "INTERJECTIONALISING",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "INTERJECTIONALIZING",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "INTERMEDDLESOMENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "INTERPROFESSIONALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "INTERRESPONSIBILITY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "INTERSYSTEMATICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "INTERSTRATIFICATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "INTRAECCLESIASTICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "INTRAPARENCHYMATOUS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "INTROCONVERTIBILITY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "IRRECONCILIABLENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "IRREPREHENSIBLENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "IRREPRESENTABLENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "KINEMATOGRAPHICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "LAPAROSALPINGECTOMY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "LARYNGOTRACHEOSCOPY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "LARYNGOVESTIBULITIS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "LYMHPANGIOPHLEBITIS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "LYMPHOGRANULOMATOUS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "LITHOCHROMATOGRAPHY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "LITISCONTESTATIONAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MACRACANTHORHYNCHUS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MACROLINGUISTICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MACROMETEOROLOGICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MAGNETOFLUIDDYNAMIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MAGNETOHYDRODYNAMIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MANDIBULOPHARYNGEAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MAXILLOPREMAXILLARY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MECHANOTHERAPEUTICS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MEDICOPSYCHOLOGICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MENINGOENCEPHALITIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MENINGOENCEPHALITIS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MENINGOMYELORRHAPHY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MESEMBRYANTHEMACEAE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "METACARPOPHALANGEAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "METAPHENYLENEDIAMIN",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "METATARSOPHALANGEAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MICROCINEMATOGRAPHY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MICROCLIMATOLOGICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MICROCRYSTALLOSCOPY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MICROELECTRONICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MICROMETALLOGRAPHER",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MICROMETEOROLOGICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MICROPALEONTOLOGIST",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MICRORADIOGRAPHICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MISAPPREHENSIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MISCHARACTERIZATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MONOCHLORANTHRACENE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MULTIDIMENSIONALITY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MUSICOPHILOSOPHICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NEUROLEPTOANALGESIA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NEUROPHARMACOLOGIST",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONABSOLUTISTICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONACCUMULATIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONACQUAINTANCESHIP",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONADMINISTRATIVELY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONADVANTAGEOUSNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONADVENTITIOUSNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONALLITERATIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONANTAGONISTICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONAPPRECIATIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONAPPREHENSIBILITY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONAPPROACHABLENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONARISTOCRATICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONAUTOBIOGRAPHICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONBUREAUCRATICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONCAPITALISTICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONCIRCUMSTANTIALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONCOMMUNICABLENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONCOMPREHENSIBLELY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONCONFIDENTIALNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONCONFORMISTICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONCONSEQUENTIALITY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONCONSTRUCTIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONCONTEMPTIBLENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONCONTEMPTUOUSNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONCONTRIBUTIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONCONTUMACIOUSNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONCONVERSATIONALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONDEMONSTRABLENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONDENOMINATIONALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONDIAGRAMMATICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONDISCRIMINATINGLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONDISCRIMINATIVELY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONDISESTABLISHMENT",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONDISINGENUOUSNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONDISPUTATIOUSNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONDISTRIBUTIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONECCLESIASTICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONENTHUSIASTICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONEPIGRAMMATICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONHISTRIONICALNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONICONOCLASTICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONIMPRESSIONABNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONINTELLECTUALNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONINTERDEPENDENTLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONINTERMITTENTNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONINTERPRETABILITY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONINTERPRETATIONAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONINTERPRETIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONINTERVENTIONISTS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONINTROVERSIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONJOURNALISTICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONMARRIAGEABLENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONMELODRAMATICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONMETEOROLOGICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONMULTIPLICATIONAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONMULTIPLICATIVELY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONOPINIONATIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONORTHOGRAPHICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONPERPENDICULARITY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONPHARMACEUTICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONPHOTOGRAPHICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONPSYCHOANALYTICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONPSYCHOPATHICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONQUANTITATIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONRECONCILABLENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONRECUPERATIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONRELATIVISTICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONREPREHENSIBILITY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONREPRESENTATIONAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONREPRESENTATIVELY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONREPRODUCTIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONRESPECTABILITIES",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONRESPONSIBILITIES",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONSACRILEGIOUSNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONSENSATIONALISTIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONSUBCONSCIOUSNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONSUBJECTIFICATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONSUBSTITUTIONALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONSURREALISTICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONTRADITIONALISTIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONTRANSPORTABILITY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ODONTOHYPERESTHESIA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OPHTHALMOLEUCOSCOPE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OPHTHALMOPHLEBOTOMY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OPHTHALMOSTATOMETER",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OPHTHALMOTROPOMETER",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OPTHALMOTHERMOMETER",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ORNITHOBIOGRAPHICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ORNITHOGEOGRAPHICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ORTHOBRACHYCEPHALIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ORTHOVERATRALDEHYDE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OSTEOCHONDROFIBROMA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OSTEOCHONDROSARCOMA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OTOHEMINEURASTHENIA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OTORHINOLARYNGOLOGY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OVARIOSALPINGECTOMY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OVERAFFIRMATIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OVERARGUMENTATIVELY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OVERCOMMERCIALIZING",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OVERCOMPETITIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OVERCONSCIENTIOUSLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OVERCONSIDERATENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OVERCONTENTIOUSNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OVERDESCRIPTIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OVERDESTRUCTIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OVERDIVERSIFICATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OVERGESTICULATIVELY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OVERIMAGINATIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OVERINDIVIDUALISTIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OVERINDUSTRIALIZING",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OVERINSTRUCTIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OVERINTELLECTUALISM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OVERINTELLECTUALITY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OVERINTELLECTUALIZE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OVERINTENSIFICATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OVERNATIONALIZATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OVEROBJECTIFICATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OVERPESSIMISTICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OVERPRESUMPTIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OVERPROCRASTINATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OVERPROPORTIONATELY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OVERRATIONALIZATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OVERSACRIFICIALNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OVERSENTIMENTALIZED",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OVERSIMPLIFICATIONS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OVERSPECULATIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OVERSTIMULATIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OVERSUPERSTITIOUSLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OVERSUSCEPTIBLENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PALAEOCLIMATOLOGIST",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PALAEODENDROLOGICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PALAEODICTYOPTEROUS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PALAEOENTOMOLOGICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PALAEOHERPETOLOGIST",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PALAEOPSYCHOLOGICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PALAEORNITHOLOGICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PALAEOTYPOGRAPHICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PALEOANTHROPOGRAPHY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PALEOANTHROPOLOGIST",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PALEOCLIMATOLOGICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PALEOGEOGRAPHICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PALEOMETEOROLOGICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PANCREATICODUODENAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PAPILLOADENOCYSTOMA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PARACHROMATOPHOROUS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PARADICHLOROBENZENE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PARASYMPATHOMIMETIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PARATHYROIDECTOMIES",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PARATHYROIDECTOMIZE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PARLIAMENTARIZATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PARTHENOGENETICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PARTICULARISTICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PATHOLOGICOANATOMIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PATHOLOGICOCLINICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PECTINATOFIMBRICATE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PENECONTEMPORANEOUS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PERICARDIACOPHRENIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PERICARDIOSYMPHYSIS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PERIOSTEOMEDULLITIS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PERIPACHYMENINGITIS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PEROXIDICPEROXIDING",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHARYNGOAMYGDALITIS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHARYNGOTONSILLITIS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHARMACODYNAMICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHARMACOGNOSTICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHENANTHRENEQUINONE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHENYLTHIOCARBAMIDE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHENOMENALISTICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHYCOCHROMOPHYCEOUS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHYSICOASTRONOMICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHYSICOGEOGRAPHICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHYSICOMATHEMATICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHYSICOTHERAPEUTICS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHYSIOPHILOSOPHICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHYSIOPSYCHOLOGICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHYSIOTHERAPEUTICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHYTOCLIMATOLOGICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHYTOGEOGRAPHICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHYTOHAEMAGGLUTININ",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHYTOPALEONTOLOGIST",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHYTOSOCIOLOGICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHOENICOPTERIFORMES",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHONAUTOGRAPHICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHOSPHATIDYLCHOLINE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHOSPHOENOLPYRUVATE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHOSPHOFRUCTOKINASE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHOSPHOGLYCOPROTEIN",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHOSPHOMONOESTERASE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHOTODISINTEGRATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHOTOGALVANOGRAPHIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHOTOHYPONASTICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHOTOMICROGRAPHICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHOTOPHOSPHORESCENT",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHOTOPOLYMERIZATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHOTORECONNAISSANCE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHRENICOPERICARDIAC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHTHISIOTHERAPEUTIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PYOPNEUMOPERITONEUM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PLATYBRACHYCEPHALIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PLATYMESATICEPHALIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PLENIPOTENTIARYSHIP",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PLUTONOMETAMORPHISM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PNEUMOENCEPHALOGRAM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "POSTIMPRESSIONISTIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PROCONFEDERATIONIST",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PROCRASTINATIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PROCTOELYTROPLASTIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PROCTOSIGMOIDECTOMY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PROFESSIONALISATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PROFESSIONALIZATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PROPANEDICARBOXYLIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PROSTATOVESICULITIS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PROTOBASIDIOMYCETES",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PSEUDOAESTHETICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PSEUDOANACHRONISTIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PSEUDOASSOCIATIONAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PSEUDOCARTILAGINOUS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PSEUDOCHROMESTHESIA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PSEUDOCOMPETITIVELY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PSEUDOEDUCATIONALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PSEUDOERYSIPELATOUS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PSEUDOEVANGELICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PSEUDOHALLUCINATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PSEUDOHALLUCINATORY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PSEUDOHERMAPHRODISM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PSEUDOHERMAPHRODITE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PSEUDOINDEPENDENTLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PSEUDOINSPIRATIONAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PSEUDOINTELLECTUALS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PSEUDOINTERNATIONAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PSEUDOPATRIOTICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PSEUDOPHILANTHROPIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PSEUDOPHILOSOPHICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PSEUDOPSYCHOLOGICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PSEUDOSTALACTITICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PSEUDOSTALAGMITICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PSEUDOSTEREOSCOPISM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PSYCHODISPOSITIONAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PSYCHOPHARMACOLOGIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PSYCHOPHYSIOLOGICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PSYCHOTECHNOLOGICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PSYCHOTHERAPEUTICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PTERIDOSPERMAPHYTIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "QUATTUORDECILLIONTH",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "RADIOPHARMACEUTICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "REINDUSTRIALIZATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "REMISREPRESENTATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "REPRESENTATIONALISM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "REPRESENTATIONALIST",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "RESORCINOLPHTHALEIN",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "RETICULATOGRANULATE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "RETICULOENDOTHELIAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "RONTGENOGRAPHICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SACCHAROCHEMOTROPIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SACCHAROFARINACEOUS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SACCHAROMYCETACEOUS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SALPINGOCATHETERISM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SALPINGOPERITONITIS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SALPINGOSTENOCHORIA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SANGUINEOPHLEGMATIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SCHEMATOLOGETICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SCHOOLMASTERISHNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SCIENTIFICOROMANTIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SCROFULOTUBERCULOUS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SEMIANTHROPOLOGICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SEMIANTIMINISTERIAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SEMIARCHITECTURALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SEMIBLASPHEMOUSNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SEMICONVENTIONALITY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SEMIDICTATORIALNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SEMIEXPRESSIONISTIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SEMINATIONALIZATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SEMIPHILOSOPHICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SEMIPHOSPHORESCENCE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SEMIPROGRESSIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SEMIPSYCHOLOGICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SEMISENTIMENTALIZED",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SEMISOCIALISTICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SEMISPECULATIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SEMISPONTANEOUSNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SEMITRANSPARENTNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SIGMOIDOPROCTOSTOMY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SYMPTOMATOLOGICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SPECTROFLUOROMETRIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SPECTROHELIOGRAPHIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SPHERICOCYLINDRICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SPHERICOTETRAHEDRAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SQUAMATOTUBERCULATE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "STEGANOPHTHALMATOUS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "STEREOCHROMATICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "STEREOROENTGENOGRAM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "STERNOCLEIDOMASTOID",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "STOICHEIOMETRICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "STRAIGHTFORWARDNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SUBADMINISTRATIVELY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SUBCOMMISSIONERSHIP",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SUBDOLICHOCEPHALISM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SUBDOLICHOCEPHALOUS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SUBSULTORYSUBSULTUS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SULFAMETHYLTHIAZOLE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SULFANILYLGUANIDINE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SULPHONETHYLMETHANE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SUPERABOMINABLENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SUPERACKNOWLEDGMENT",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SUPERADMINISTRATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SUPERATTAINABLENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SUPERATTRACTIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SUPERBELIEVABLENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SUPERCHIVALROUSNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SUPERCOMMERCIALNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SUPERCONSERVATIVELY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SUPERCONSTITUTIONAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SUPERDEMOCRATICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SUPERDIABOLICALNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SUPEREXPRESSIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SUPERFORMIDABLENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SUPERIMPROBABLENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SUPERINTELLECTUALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SUPERMATHEMATICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SUPERPRECARIOUSNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SUPERRESPECTABILITY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SUPERRESPONSIBILITY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SUPERSCIENTIFICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SUPERSEPTUAGINARIAN",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SUPERSUBSTANTIALITY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SUPERSUPERABUNDANCE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SUPERSUSPICIOUSNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SUPERTRANSCENDENTLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SUPERVICTORIOUSNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "TELECOMMUNICATIONAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "TETRACHLOROETHYLENE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "TETRAFLUOROETHYLENE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "TETRAMETHYLAMMONIUM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "TETRAMETHYLDIARSINE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "THEOANTHROPOMORPHIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "THEOLOGICOPOLITICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "THEORETICOPRACTICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "THERMOELECTROMOTIVE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "THERMOHYPERESTHESIA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "THREEDIMENSIONALITY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "THROMBOLYMPHANGITIS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "TRANSCENDENTALISTIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "TRANSCENDENTALIZING",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "TRANSFORMATIONALIST",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "TRANSMOGRIFICATIONS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "TRIANGULOTRIANGULAR",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "TRIBOPHOSPHORESCENT",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "TRIBOPHOSPHOROSCOPE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "TRIGONODODECAHEDRON",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ULTRABRACHYCEPHALIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ULTRACENTENARIANISM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ULTRACENTRIFUGATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ULTRACREPIDARIANISM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ULTRADOLICHOCEPHALY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ULTRADOLICHOCRANIAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ULTRAMICROCHEMISTRY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ULTRASPECIALIZATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNACCOMMODATINGNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNANACHRONISTICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNAPPREHENDABLENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNAPPREHENSIBLENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNARGUMENTATIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNASCERTAINABLENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNAUTHORITATIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNCHALLENGEABLENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNCIRCUMSCRIBEDNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNCOMMENSURABLENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNCOMMUNICATIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNCOMPARTMENTALIZED",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNCOMPARTMENTALIZES",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNCOMPASSIONATENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNCOMPREHENDINGNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNCOMPREHENSIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNCONSCIENTIOUSNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNCONSENTANEOUSNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNCONSEQUENTIALNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNCONSTITUTIONALISM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNCONSTITUTIONALITY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNCONTEMPLATIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNCONTEMPORANEOUSLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNCONVENTIONALITIES",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNCRYSTALLIZABILITY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNDEMONSTRATIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNDENOMINATIONALISM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNDENOMINATIONALIST",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNDENOMINATIONALIZE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNDERCAPITALIZATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNDERREPRESENTATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNDISPASSIONATENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNDISTINGUISHEDNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNEXCEPTIONABLENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNGENTLEMANLIKENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNIMPRESSIONABILITY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNINTERRUPTIBLENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNLEXICOGRAPHICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNMATERIALISTICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNMISUNDERSTANDABLE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNNATIONALISTICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNOBJECTIONABLENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNPHILANTHROPICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNPHILOSOPHICALNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNPLATITUDINOUSNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNPREPOSSESSINGNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNPROPORTIONATENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNREPREHENSIBLENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNSANCTIMONIOUSNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNSELFCONSCIOUSNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNSOPHISTICATEDNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNSPORTSMANLIKENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNSUPERSTITIOUSNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNTRANSUBSTANTIATED",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNTRIGONOMETRICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UNUNDERSTANDABILITY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "URANOSTAPHYLOPLASTY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "VECTORCARDIOGRAPHIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "VICISSITUDINOUSNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "WESTNORTHWESTWARDLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ZYGOMATICOAURICULAR",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ZYGOMATICOMAXILLARY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  }
+]

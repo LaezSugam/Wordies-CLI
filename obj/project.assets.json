@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Coding Projects\\Wordies\\Wordies.csproj",
+      "projectUniqueName": "D:\\Coding Projects\\Wordies CLI\\Wordies.csproj",
       "projectName": "Wordies",
-      "projectPath": "D:\\Coding Projects\\Wordies\\Wordies.csproj",
+      "projectPath": "D:\\Coding Projects\\Wordies CLI\\Wordies.csproj",
       "packagesPath": "C:\\Users\\true_\\.nuget\\packages\\",
-      "outputPath": "D:\\Coding Projects\\Wordies\\obj\\",
+      "outputPath": "D:\\Coding Projects\\Wordies CLI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

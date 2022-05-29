@@ -1,0 +1,2564 @@
+[
+  {
+    "StringValue": "AA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "AB",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "AC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "AD",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "AE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "AF",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "AG",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "AH",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "AI",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "AY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "AK",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "AL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "AM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "AN",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "AO",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "AP",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "AQ",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "AR",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "AS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "AT",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "AV",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "AW",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "AX",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "AZ",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BB",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BD",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BF",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BG",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BI",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BK",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BN",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BO",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BP",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BR",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BT",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BU",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BV",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BX",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BZ",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CB",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CD",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CF",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CG",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CH",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CK",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CO",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CP",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CQ",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CR",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CT",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CU",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CV",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DB",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DD",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DG",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DI",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DJ",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DK",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DN",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DO",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DP",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DR",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DT",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DU",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DX",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DZ",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "EA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "EC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ED",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "EE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "EF",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "EG",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "EH",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "EY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "EL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "EM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "EN",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "EO",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "EP",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "EQ",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ER",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ES",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ET",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "EU",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "EW",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "EX",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "FA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "FB",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "FC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "FE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "FF",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "FG",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "FI",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "FY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "FL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "FM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "FN",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "FO",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "FP",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "FR",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "FS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "FT",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "FU",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "FV",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "FW",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "FZ",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "GA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "GD",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "GE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "GI",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "GL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "GM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "GN",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "GO",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "GP",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "GR",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "GS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "GT",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "GU",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "GV",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HB",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HD",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HF",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HG",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HI",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HO",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HP",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HQ",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HR",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HT",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HU",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HV",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HW",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "IA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "YA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "IB",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "IC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ID",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "YD",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "IE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "YE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "IF",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "II",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "YI",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "IK",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "IL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "IM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "YM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "IN",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "YN",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "IO",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "YO",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "IQ",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "IR",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "YR",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "IS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "YS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "IT",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "YT",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "IV",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "IW",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "IX",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "JA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "JG",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "JI",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "JO",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "JR",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "JS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "JT",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "JU",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "KA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "KB",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "KC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "KG",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "KI",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "KY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "KL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "KM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "KN",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "KO",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "KR",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "KT",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "KV",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "KW",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "LA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "LB",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "LC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "LD",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "LE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "LF",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "LG",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "LH",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "LI",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "LY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "LL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "LM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "LN",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "LO",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "LP",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "LR",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "LS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "LT",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "LU",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "LV",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "LX",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MB",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MD",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ME",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MF",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MG",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MH",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MI",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MK",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ML",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MN",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MO",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MP",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MR",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MT",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MU",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MV",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MW",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NB",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ND",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NG",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NI",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NJ",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NO",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NP",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NR",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NT",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NU",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NV",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OB",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OD",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OF",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OG",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OH",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OK",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ON",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OP",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OR",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OT",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OW",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OX",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OZ",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PD",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PF",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PG",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PH",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PI",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PK",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PO",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PP",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PQ",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PR",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PT",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PU",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "QE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "QH",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "QY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "QL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "QM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "QN",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "QP",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "QR",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "QS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "QT",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "QU",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "QV",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "RA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "RC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "RD",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "RE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "RF",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "RG",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "RH",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "RM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "RN",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "RO",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "RS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "RT",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SB",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SD",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SF",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SG",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SH",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SI",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SK",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SN",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SO",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SP",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SQ",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SR",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ST",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SU",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SV",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SW",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "TA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "TB",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "TC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "TD",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "TE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "TG",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "TH",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "TI",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "TK",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "TM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "TN",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "TO",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "TP",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "TR",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "TS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "TU",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "TV",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "TX",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UD",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UG",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UH",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UI",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UN",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UP",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UR",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "US",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UT",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "UX",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "VA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "VB",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "VC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "VD",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "VG",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "VI",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "VL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "VO",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "VP",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "VR",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "VS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "VT",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "VU",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "VV",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "WA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "WB",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "WC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "WD",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "WE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "WF",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "WG",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "WH",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "WI",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "WY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "WK",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "WL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "WM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "WO",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "WR",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "WS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "WT",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "WU",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "XC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "XD",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "XI",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "XR",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "XS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "XU",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "XW",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "XX",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ZA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ZN",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ZO",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ZS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  }
+]
