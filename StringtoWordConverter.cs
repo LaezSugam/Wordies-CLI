@@ -8,8 +8,8 @@ namespace Wordies
 
     public static class StringToWordConverter
     {
-        private static int _minimumLength = 1;
-        private static int _maximumLength = 31;
+        private static int _minimumLength = 3;
+        private static int _maximumLength = 15;
 
         public static void RunConverter()
         {
@@ -18,19 +18,38 @@ namespace Wordies
             for(var i = _minimumLength; i <= _maximumLength; i++)
             {
                 List<Word> words = new List<Word>();
-                var tempPath = path + i + "letterWords.txt";
+                var tempPath = path + i + "-letter-words.json";
 
-                if(!File.Exists(tempPath))
-                {
-                    continue;
-                }
+                // List<Word> words = new List<Word>();
+                // var tempPath = path + i + "letterWords.txt";
 
-                foreach(string line in File.ReadLines(tempPath))
+                // if(!File.Exists(tempPath))
+                // {
+                //     continue;
+                // }
+
+                // foreach(string line in File.ReadLines(tempPath))
+                // {
+                //     var word = new Word()
+                //     {
+                //         StringValue = line.ToUpper(),
+                //         Difficulty = 2,
+                //         Language = Word.Languages.EN_US,
+                //         Notes = string.Empty,
+                //     };
+
+                //     words.Add(word);
+                // }
+
+                string jsonStringDeserialized = File.ReadAllText(tempPath);
+                List<ScrabbleWord> notWords = JsonSerializer.Deserialize<List<ScrabbleWord>>(jsonStringDeserialized);
+
+                foreach(var notWord in notWords)
                 {
                     var word = new Word()
                     {
-                        StringValue = line.ToUpper(),
-                        Difficulty = 3,
+                        StringValue = notWord.word.ToUpper(),
+                        Difficulty = 2,
                         Language = Word.Languages.EN_US,
                         Notes = string.Empty,
                     };
@@ -39,13 +58,22 @@ namespace Wordies
                 }
 
                 var jsonOptions = new JsonSerializerOptions { WriteIndented = true };
-                string jsonString = JsonSerializer.Serialize(words, jsonOptions);
+                string jsonStringSerialized = JsonSerializer.Serialize(words, jsonOptions);
 
                 var savePath = path + i + "letterWords.wrds";
 
                 Console.WriteLine("Writing " + savePath);
 
-                File.WriteAllText(savePath, jsonString);
+                File.WriteAllText(savePath, jsonStringSerialized);
+            }
+        }
+
+        class ScrabbleWord
+        {
+            public string word {get; set;}
+
+            public ScrabbleWord()
+            {
             }
         }
     }

@@ -1,0 +1,446 @@
+[
+  {
+    "StringValue": "ALKYLBENZENESULFONATES",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ANATOMICOPHYSIOLOGICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "AQUOPENTAMMINECOBALTIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ASTROSPHERECENTROSOMIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "BLEPHAROCONJUNCTIVITIS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CHLOROTRIFLUOROMETHANE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CHLORPROPHENPYRIDAMINE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CHOLECYSTENTERORRHAPHY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CHOLECYSTODUODENOSTOMY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CHOLEDOCHODUODENOSTOMY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "CINEANGIOCARDIOGRAPHIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "COUNTERCLASSIFICATIONS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "COUNTEREXCOMMUNICATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "COUNTERREVOLUTIONARIES",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DACRYOCYSTOBLENNORRHEA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DACRYOCYSTOSYRINGOTOMY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DEANTHROPOMORPHIZATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DEINSTITUTIONALIZATION",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DEOXYRIBONUCLEOPROTEIN",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DICYCLOPENTADIENYLIRON",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DINITROPHENYLHYDRAZINE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "DUODENOCHOLECYSTOSTOMY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ELECTROENCEPHALOGRAPHY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ELECTROENCEPHALOGRAPHS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ELECTROPHYSIOLOGICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ELECTROTELETHERMOMETER",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HEXAHYDROXYCYCLOHEXANE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HEXAMETHYLENETETRAMINE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HEXANITRODIPHENYLAMINE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYDROPNEUMOPERICARDIUM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYPERCONSCIENTIOUSNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HYPERCONSTITUTIONALISM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "HISTORICOCABBALISTICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "INTERDENOMINATIONALISM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "LAPAROCOLPOHYSTEROTOMY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "LYMPHANGIOENDOTHELIOMA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MICROCRYPTOCRYSTALLINE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MICROELECTROPHORETICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MICROSPECTROPHOTOMETER",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "MICROSPECTROPHOTOMETRY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NAPHTHYLAMINESULPHONIC",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONCONTEMPORANEOUSNESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONDISTINGUISHABLENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONINTERCHANGEABLENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "NONREPRESENTATIONALISM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OMNIREPRESENTATIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OVERIMPRESSIONABLENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "OVERREPRESENTATIVENESS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PANCREATICOGASTROSTOMY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHENYLETHYLMALONYLUREA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHILOSOPHICOHISTORICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHOTOCHRONOGRAPHICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PHOTOSPECTROHELIOGRAPH",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PYOPNEUMOCHOLECYSTITIS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PNEUMOHYDROPERICARDIUM",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PNEUMOVENTRICULOGRAPHY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "POLIOENCEPHALOMYELITIS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PRORHIPIDOGLOSSOMORPHA",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PSEUDOARISTOCRATICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PSEUDOENTHUSIASTICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "PSEUDOMONOCOTYLEDONOUS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SCLEROTICOCHORIOIDITIS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SNAILFISHESSNAILFLOWER",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SPECTROPHOTOMETRICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "STEREOPHOTOMICROGRAPHY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "STERNOCLEIDOMASTOIDEUS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "SUCCINYLSULPHATHIAZOLE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "THEOLOGICOASTRONOMICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "THEOLOGICOMETAPHYSICAL",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "THYROPARATHYROIDECTOMY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "TRIFLUOROCHLOROMETHANE",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ULTRANATIONALISTICALLY",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "URETEROCYSTANASTOMOSIS",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  },
+  {
+    "StringValue": "ZOOLOGICOARCHAEOLOGIST",
+    "Difficulty": 3,
+    "Language": 0,
+    "Notes": ""
+  }
+]
