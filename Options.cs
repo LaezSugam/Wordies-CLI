@@ -30,7 +30,7 @@ namespace Wordies
                 string jsonString = File.ReadAllText(_optionsPath);
                 options = JsonSerializer.Deserialize<Options>(jsonString);
 
-                Console.WriteLine(jsonString);
+                // Console.WriteLine(jsonString);
             }
 
             return options;
@@ -61,7 +61,7 @@ namespace Wordies
 
             File.WriteAllText(_optionsPath, jsonString);
 
-            Console.WriteLine(jsonString);
+            // Console.WriteLine(jsonString);
         }
 
         public void GetHardcoreEnabled()

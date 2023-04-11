@@ -30,7 +30,7 @@ namespace Wordies
                 string jsonString = File.ReadAllText(_settingsPath);
                 settings = JsonSerializer.Deserialize<Settings>(jsonString);
 
-                Console.WriteLine(jsonString);
+                // Console.WriteLine(jsonString);
             }
 
             return settings;
@@ -61,7 +61,7 @@ namespace Wordies
 
             File.WriteAllText(_settingsPath, jsonString);
 
-            Console.WriteLine(jsonString);
+            // Console.WriteLine(jsonString);
         }
     }
 }

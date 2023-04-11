@@ -63,7 +63,7 @@ namespace Wordies
         {
             while(true)
             {
-                Console.WriteLine("Type 1 to play Wordies. Type 2 to play Wordle. Type 3 for Wordies Infinite. Type 4 for Options. Type 5 for Converter.");
+                Console.WriteLine("Type 1 to play Wordies. Type 2 to play Wordle. Type 3 for Wordies Infinite. Type 4 for Options.");
                 var input = Console.ReadLine();
 
                 if(input == "2" || input.ToUpper() == "WORDLE")
@@ -94,11 +94,11 @@ namespace Wordies
                     _numberOfWordsToGuess = int.MaxValue;
                 }
 
-                if(input == "5")
-                {
-                    StringToWordConverter.RunConverter();
-                    continue;
-                }
+                // if(input == "5")
+                // {
+                //     StringToWordConverter.RunConverter();
+                //     continue;
+                // }
 
                 SetupFromOptions();
                 SetGuesses();
